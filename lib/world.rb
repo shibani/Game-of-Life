@@ -1,6 +1,5 @@
 class World
 
-  attr_reader :cells
   ALIVE = 1
   DEAD = 0
 

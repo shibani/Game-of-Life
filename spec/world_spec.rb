@@ -3,7 +3,7 @@ require './lib/world'
 
 class WorldTest < Minitest::Test
 
-  def test_that_it_has_a_10x10_world
+  def test_that_it_has_a_4x4_world
     world = World.new
     assert_equal 16, world.size
   end
